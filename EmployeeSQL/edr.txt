@@ -1,10 +1,6 @@
-# Modify this code to update the DB schema diagram.
-# To reset the sample schema, replace everything with
-# two dots ('..' - without quotes).
-
 Departments
 --
-dept_no varchar
+dept_no varchar PK
 dept_name varchar
 
 dept_emp
@@ -34,5 +30,5 @@ salary int
 
 titles
 --
-title_id varchar
+title_id varchar pk
 title varchar
