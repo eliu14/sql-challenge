@@ -13,7 +13,7 @@ CREATE TABLE titles (
 CREATE TABLE employees (
     emp_no int,
     emp_title_id varchar(5),
-    birth_date varchar(10),
+    birth_date date,
     first_name varchar(30),
     last_name varchar(30),
     sex char,
